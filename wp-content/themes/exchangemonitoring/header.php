@@ -12,30 +12,28 @@
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-	<?php wp_head(); ?>
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+    <?php wp_head(); ?>
 </head>
 
 <body>
 
-	<?php 
-	include('custom-header.php');
+    <?php 
+		include('custom-header.php');
 	?>
-	<section class="content">
-		<div class="content_wrapper">
-			<?php 
+    <section class="content">
+        <div class="content_wrapper">
+            <?php 
+				include('monitoring.php');
 				include('calculator.php');
-				
 			?>
-			<?php
-			include('monitoring.php');
-			?>
-		</div>
-	</section>
-	
+        </div>
+    </section>
+
 
 </body>
