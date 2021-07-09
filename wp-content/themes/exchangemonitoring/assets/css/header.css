@@ -1,0 +1,27 @@
+.header__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #39a2db;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  color: #fff;
+}
+
+.header__section {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    padding:  10px 15px;
+    font-size: 18px;
+    line-height: 22px;
+
+}
