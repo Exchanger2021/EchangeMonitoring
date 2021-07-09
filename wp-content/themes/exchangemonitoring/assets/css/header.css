@@ -1,4 +1,4 @@
-.header__item a {
+/* .header__item a {
   text-decoration: none;
   color: #fff;
 }
@@ -12,16 +12,109 @@
   font-style: normal;
   font-weight: bold;
   color: #fff;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .header__section {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__item {
-    padding:  10px 15px;
-    font-size: 18px;
-    line-height: 22px;
+  padding: 10px 35px;
+  font-size: 18px;
+  line-height: 22px;
+}
 
+.header__item a:hover {
+  color: rgba(255, 255, 255, 0.836);
+}
+
+.headerButton {
+  border-left: 1px solid rgba(255, 255, 255, 0.26);
+} */
+/* Burger */
+
+.nav {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  background-color: #39a2db;
+  border-radius: 0px 0px 10px 10px;
+}
+.menu {
+  margin: 0 90px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 30px;
+  line-height: 70px;
+  clear: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+}
+.menu a:hover {
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.651);
+    transition: ease 0.5s;
+}
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+  color: #fff;
+}
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  label {
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+    visibility: visible;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    background-color: #39a2db;
+    display: none;
+    /* position: absolute; */
+
+    
+  }
+  .menu a {
+    display: block;
+    margin: 0 0 30px 0;
+    font-size: 26px;
+  }
+  .menu a:hover {
+    transition: ease 1s;
+    background-color: rgba(255, 255, 255, 0.205);
+  }
+  #toggle:checked + .menu {
+    display: block;
+    height: 100vh;
+  
+    
+    z-index: 9;
+    position: sticky;
+  }
+  .menu__item a {
+    display: none;
+  }
+  .cross {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+  }
 }

@@ -28,18 +28,29 @@
     margin-top: 20px;
     border-radius: 10px 10px 0 0;
 }
-.monitoring_table__head{
-    background-color: #39A2DB;
-    color: #fff;
+.monitoring_table__wrapper {
+  text-align: center;
 }
-.monitoring_table__head th{
-    padding: 15px 45px;
+.monitoring_table__wrapper table {
+  background: #fff;
 }
-.monitoring_table__head th:first-child{
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
+.monitoring_table__head {
+  background-color: #39a2db;
+  color: #fff;
 }
+.monitoring_table__head th {
+  padding: 15px 45px;
+}
+.monitoring_table__head th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.monitoring_table__head th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+<<<<<<< HEAD
+=======
 .monitoring_table__head th:last-child{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -47,3 +58,4 @@
 .monitoring_table__wrapper table tr td{
     padding: 12px 75px;
 }
+>>>>>>> 8b9a2c30e678074364c8e609b2030b493d641daf
