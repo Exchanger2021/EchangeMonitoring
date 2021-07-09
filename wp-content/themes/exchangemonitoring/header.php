@@ -29,7 +29,10 @@
 		<div class="content_wrapper">
 			<?php 
 				include('calculator.php');
-				include('monitoring.php');
+				
+			?>
+			<?php
+			include('monitoring.php');
 			?>
 		</div>
 	</section>
