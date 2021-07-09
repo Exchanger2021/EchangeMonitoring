@@ -141,6 +141,8 @@ add_action( 'widgets_init', 'exchangemonitoring_widgets_init' );
  */
 function exchangemonitoring_scripts() {
 	wp_enqueue_style( 'exchangemonitoring-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'exchangemonitoring-calculator', get_stylesheet_directory_uri(), 'assets/css/calculator.css');
+
 	wp_style_add_data( 'exchangemonitoring-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'exchangemonitoring-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
