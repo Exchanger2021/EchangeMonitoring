@@ -1,15 +1,31 @@
 /*File for styles for monitoring component.*/
 
-.monitoring {
-  max-width: 75%;
-  width: 100%;
-  font-family: "Montserrat";
+.content{
+    padding-top: 50px;
 }
-.monitoring_info__wrapper {
-  text-align: center;
-  max-width: 60%;
-  width: 100%;
-  margin: 0 auto;
+.monitoring{
+    max-width: 75%;
+    width: 100%;
+    font-family: 'Montserrat';
+}
+.monitoring_info__wrapper{
+    text-align: center;
+    max-width: 60%;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 2;
+}
+.monitoring_info__wrapper h2{
+    padding-top: 10px;
+}
+.monitoring_table__wrapper{
+    text-align: center;
+
+}
+.monitoring_table__wrapper table{
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
 }
 .monitoring_table__wrapper {
   text-align: center;
@@ -32,3 +48,13 @@
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+<<<<<<< HEAD
+=======
+.monitoring_table__head th:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.monitoring_table__wrapper table tr td{
+    padding: 12px 75px;
+}
+>>>>>>> 8b9a2c30e678074364c8e609b2030b493d641daf
