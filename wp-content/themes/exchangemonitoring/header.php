@@ -20,4 +20,19 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body>
+
+	<?php 
+	include('custom-header.php');
+	?>
+	<section class="content">
+		<div class="content_wrapper">
+			<?php 
+				include('calculator.php');
+				include('monitoring.php');
+			?>
+		</div>
+	</section>
+	
+
+</body>
