@@ -1,7 +1,7 @@
 <header class="header">
     <div class="header__section">
         <div class="header__item headerlogo">
-            EXHANGE <br>MONITORING
+            EXCHANGE <br>MONITORING
         </div>
     </div>
     <div class="header__section">

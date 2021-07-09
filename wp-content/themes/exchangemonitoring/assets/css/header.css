@@ -12,16 +12,25 @@
   font-style: normal;
   font-weight: bold;
   color: #fff;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .header__section {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__item {
-    padding:  10px 15px;
-    font-size: 18px;
-    line-height: 22px;
+  padding: 10px 35px;
+  font-size: 18px;
+  line-height: 22px;
+}
 
+.header__item a:hover {
+  color: rgba(255, 255, 255, 0.836);
+}
+
+.headerButton {
+  border-left: 1px solid rgba(255, 255, 255, 0.26);
 }
