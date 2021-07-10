@@ -13,7 +13,7 @@
                     Bitcoin(BTC)
                 </div>
                 <div class="calculator_arrow">
-                    <img src="img/right-arrow.png">
+                    <img src="assets/images/calculator/right-arrow.png">
                 </div>
                 <div class="calculator_search_2">
                     Ethereum(ETH)
@@ -24,42 +24,42 @@
                     <table border="0" max-width="100%" width='100%' cellpadding='0' cellspacing='0'
                         style='border-collapse:collapse'>
                         <tr>
-                            <td>Bitcoin(BTC)
+                            <td> <img src="assets/images/calculator/bitcoin.png"> Bitcoin(BTC)
                                 <hr size="2" color="C4C4C4" />
                             </td>
                         </tr>
                         <tr>
-                            <td>Ethereum(ETH)
+                            <td><img src="assets/images/calculator/ethereum.png">Ethereum(ETH)
                                 <hr size="2" color="C4C4C4" />
                             </td>
                         </tr>
                         <tr>
-                            <td>Tether(USDT)
+                            <td><img src="assets/images/calculator/tether.png">Tether(USDT)
                                 <hr size="2" color="C4C4C4" />
                             </td>
                         </tr>
                         <tr>
-                            <td>Binance Coin(BNB)
+                            <td><img src="assets/images/calculator/binance.png">Binance Coin(BNB)
                                 <hr size="2" color="C4C4C4" />
                             </td>
                         </tr>
                         <tr>
-                            <td>XRP(XRP)
+                            <td><img src="assets/images/calculator/coin.png">XRP(XRP)
                                 <hr size="2" color="C4C4C4" />
                             </td>
                         </tr>
                         <tr>
-                            <td>Dogecoin(DOGE)
+                            <td><img src="assets/images/calculator/dogecoin.png">Dogecoin(DOGE)
                                 <hr size="2" color="C4C4C4" />
                             </td>
                         </tr>
                         <tr>
-                            <td>Polkadot(DOT)
+                            <td><img src="assets/images/calculator/polkadot.png">Polkadot(DOT)
                                 <hr size="2" color="C4C4C4" />
                             </td>
                         </tr>
                         <tr>
-                            <td>Qtum(QTUM)
+                            <td><img src="assets/images/calculator/qtum.png">Qtum(QTUM)
                                 <hr size="2" color="C4C4C4" />
                             </td>
                         </tr>
@@ -68,28 +68,44 @@
                     <table border="0" max-width="100%" width='100%' cellpadding='0' cellspacing='0'
                         style='border-collapse:collapse'>
                         <tr>
-                            <td>Bitcoin(BTC) </td>
+                            <td> <img src="assets/images/calculator/bitcoin.png"> Bitcoin(BTC)
+                                <hr size="2" color="C4C4C4" />
+                            </td>
                         </tr>
                         <tr>
-                            <td>Ethereum(ETH) </td>
+                            <td><img src="assets/images/calculator/ethereum.png">Ethereum(ETH)
+                                <hr size="2" color="C4C4C4" />
+                            </td>
                         </tr>
                         <tr>
-                            <td>Tether(USDT) </td>
+                            <td><img src="assets/images/calculator/tether.png">Tether(USDT)
+                                <hr size="2" color="C4C4C4" />
+                            </td>
                         </tr>
                         <tr>
-                            <td>Binance Coin(BNB) </td>
+                            <td><img src="assets/images/calculator/binance.png">Binance Coin(BNB)
+                                <hr size="2" color="C4C4C4" />
+                            </td>
                         </tr>
                         <tr>
-                            <td>XRP(XRP) </td>
+                            <td><img src="assets/images/calculator/coin.png">XRP(XRP)
+                                <hr size="2" color="C4C4C4" />
+                            </td>
                         </tr>
                         <tr>
-                            <td>Dogecoin(DOGE) </td>
+                            <td><img src="assets/images/calculator/dogecoin.png">Dogecoin(DOGE)
+                                <hr size="2" color="C4C4C4" />
+                            </td>
                         </tr>
                         <tr>
-                            <td>Polkadot(DOT) </td>
+                            <td><img src="assets/images/calculator/polkadot.png">Polkadot(DOT)
+                                <hr size="2" color="C4C4C4" />
+                            </td>
                         </tr>
                         <tr>
-                            <td>Qtum(QTUM) </td>
+                            <td><img src="assets/images/calculator/qtum.png">Qtum(QTUM)
+                                <hr size="2" color="C4C4C4" />
+                            </td>
                         </tr>
                     </table>
                 </div>

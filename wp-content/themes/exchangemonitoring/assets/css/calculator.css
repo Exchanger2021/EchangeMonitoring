@@ -65,5 +65,8 @@
 .tablewrapper{
 	font-weight: 500;
 	padding: 0 10px; 
-
+}
+.tablewrapper_1 img{
+	width: 19px;
+	height: 19px;
 }
