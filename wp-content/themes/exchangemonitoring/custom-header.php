@@ -6,7 +6,7 @@
     <div class="menu">
         <div class="menu__item">
             <a>EXCHANGE MONITORING</a>
-            <label class="cross" for="toggle">&#x2613;</label>
+            <!-- <label class="cross" for="toggle">&#x2613;</label> -->
         </div>
         <div>
             <!-- <a href="#">Главная</a>

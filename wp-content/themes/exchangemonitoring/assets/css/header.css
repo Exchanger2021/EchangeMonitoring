@@ -63,7 +63,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.651);
     transition: ease 0.5s;
 }
-label {
+/* label {
   margin: 0 40px 0 0;
   font-size: 26px;
   line-height: 70px;
@@ -74,9 +74,9 @@ label {
 }
 #toggle {
   display: none;
-}
+} */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   label {
     display: block;
     cursor: pointer;
@@ -87,11 +87,11 @@ label {
     text-align: center;
     width: 100%;
     background-color: #39a2db;
-    display: none;
+    display: none; */
     /* position: absolute; */
 
     
-  }
+  /* }
   .menu a {
     display: block;
     margin: 0 0 30px 0;
@@ -117,4 +117,4 @@ label {
     top: 2px;
     right: 2px;
   }
-}
+} */
