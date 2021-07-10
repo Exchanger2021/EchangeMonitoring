@@ -9,10 +9,11 @@
             <label class="cross" for="toggle">&#x2613;</label>
         </div>
         <div>
-            <a href="#">Главная</a>
+            <!-- <a href="#">Главная</a>
             <a href="#">О нас</a>
             <a href="#">Добавить обменник</a>
-            <a href="#">Контакты</a>
+            <a href="#">Контакты</a> -->
+            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
         </div>
 
 

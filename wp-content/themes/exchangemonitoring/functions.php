@@ -193,3 +193,13 @@ function load_fonts()
 	wp_enqueue_style('et-googleFonts');
 }
 add_action('wp_print_styles', 'load_fonts');
+
+/**
+* Register Menu 
+*/ 
+function register_my_menus(){
+	register_nav_menus(array( 'header-menu' => 'header-menu1' ));
+}
+if (function_exists('register_nav_menus')){
+	add_action( 'init', 'register_my_menus' );
+}
