@@ -13,7 +13,7 @@
                     Bitcoin(BTC)
                 </div>
                 <div class="calculator_arrow">
-                    <img src="assets/images/calculator/right-arrow.png">
+                    <img src="assets\images\calculator\right-arrow.png">
                 </div>
                 <div class="calculator_search_2">
                     Ethereum(ETH)

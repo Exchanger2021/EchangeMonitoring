@@ -37,6 +37,6 @@ img{vertical-align: top;}
 .content_wrapper{
     display: flex;
     max-width: 1200px;
-    padding-top: 50px;
+    padding: 50px 40px;
     margin: 0 auto;
 }
