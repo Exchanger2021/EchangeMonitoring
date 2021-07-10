@@ -4,16 +4,21 @@
 	padding-top: 10px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px 5px gray;
+	max-width: 30%;
 }
 .calculator_item_header{
 	text-align: center;
 	line-height: 1.3;
 	font-weight: bold;
+	margin: 10px 0 10px 0;
 }
 .calculator_sum{
 	font-weight: 500;
 	display: flex;
 	justify-content: space-around;
+}
+.calculator_sum input{
+	outline: 1px dotted #ccc;
 }
 .calculator_sum div{
 	display: flex;
@@ -21,25 +26,20 @@
 .calculator_p{
 	padding-right: 12px;
 }
-.calculator_search_1{
+.calculator_search{
 	height: 27px;
 	width: 120px;
+	padding:5px;
 	border-radius: 5px;
 	font-weight: 500;
 	background-color: rgba(196, 196, 196, 1)
 
 }
-.calculator_search_2{
-	height: 27px;
-	width: 120px;
-	border-radius: 5px;
-	font-weight: 500;
-	background-color: rgba(196, 196, 196, 1)
-}
 .calculator_arrow{
 	width: 24px;
 	height: 24px;
 	border-radius: 20px;
+	margin: 0px 5px;
 	background-color: #39A2DB;
 	display: flex;
 	justify-content: space-around;
@@ -54,19 +54,19 @@
 	margin: 10px 20px;
 
 }
-.tablewrapper_1{
-	text-align: left;
-	padding-top: 10px;
-	display: flex;
-}
-.tablewrapper_2{
-	text-align: right;
-}
 .tablewrapper{
 	font-weight: 500;
 	padding: 0 10px; 
+	display: flex;
+	padding-top: 10px;
+	text-align: left;
 }
-.tablewrapper_1 img{
+.tablewrapper img{
 	width: 19px;
 	height: 19px;
+	margin: 5px;
+}
+.tablewrapper tr td{
+	display: flex;
+	align-items: center;
 }

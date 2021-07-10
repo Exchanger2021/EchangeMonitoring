@@ -40,3 +40,14 @@ img{vertical-align: top;}
     padding: 50px 40px;
     margin: 0 auto;
 }
+@media (max-width:1190px) {
+    .content_wrapper{
+        flex-direction: column;
+    }
+    .calculator{
+        margin: 0 auto;
+    }
+    .monitoring_table__wrapper table{
+        margin: 0 auto;
+    }
+}
