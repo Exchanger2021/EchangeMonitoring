@@ -1,12 +1,8 @@
 
-.content_wrapper{
-  display: flex;
-  padding-top: 50px;
-}
 .monitoring{
-  max-width: 75%;
-  width: 100%;
   font-family: 'Montserrat';
+  margin-left: 30px;
+  max-width: 70%;
 }
 .monitoring_info__wrapper{
   text-align: center;

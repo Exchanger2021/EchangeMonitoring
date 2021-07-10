@@ -22,18 +22,15 @@
 </head>
 
 <body>
-
     <?php 
 		include('custom-header.php');
 	?>
     <section class="content">
         <div class="content_wrapper">
             <?php 
-				include('monitoring.php');
-				include('calculator.php');
-			?>
+                include 'calculator.php';
+			    include 'monitoring.php';
+            ?>	
         </div>
     </section>
-
-
 </body>

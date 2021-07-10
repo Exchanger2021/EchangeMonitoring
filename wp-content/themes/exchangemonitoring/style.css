@@ -31,4 +31,12 @@ a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
-
+.content{
+    width: 100%;
+}
+.content_wrapper{
+    display: flex;
+    max-width: 1200px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
