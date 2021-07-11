@@ -21,16 +21,19 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
+    <?php wp_body_open()?>
+
     <?php 
 		include('custom-header.php');
 	?>
+
     <section class="content">
         <div class="content_wrapper">
             <?php 
                 include 'calculator.php';
 			    include 'monitoring.php';
-            ?>	
+            ?>
         </div>
     </section>
 </body>
