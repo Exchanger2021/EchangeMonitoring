@@ -8,11 +8,11 @@
             <table border="0" max-width="100%" cellpadding='0' cellspacing='0'
                 style='border-collapse:collapse'>
                 <tr class="monitoring_table__head">
-                    <th>Обмінник </th>
-                    <th>Віддаєте</th>
-                    <th>Отримаєте</th>
+                    <th>Обменник </th>
+                    <th>Отдаете</th>
+                    <th>Получаете</th>
                     <th>Резерв</th>
-                    <th>Відгуки</th>
+                    <th>Отзывы</th>
                 </tr>
                 <tr>
                     <td>1</td>
@@ -20,7 +20,6 @@
                     <td>3</td>
                     <td>4</td>
                     <td>5</td>
-
                 </tr>
             </table>
         </div>

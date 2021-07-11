@@ -1,22 +1,24 @@
 <div class="calculator">
-    <div class="calculator_item_header">
-        Калькулятор<br>криптовалют
-    </div>
-    <form action="#" class="calculator_sum">
-        <div>
-            <p class="calculator_p">Сума:</p>
-            <p><input type="number" name="num" min="0"></p>
+    <div class="calculator_head">
+        <div class="calculator_item_header">
+            Калькулятор<br>криптовалют
         </div>
-    </form>
-    <div class="calculator_info_wrapper">
-        <div class="calculator_search">
-            Bitcoin(BTC)
-        </div>
-        <div class="calculator_arrow">
-            <img src="/wordpress/wp-content/themes/exchangemonitoring/assets/images/calculator/right-arrow.png">
-        </div>
-        <div class="calculator_search">
-            Ethereum(ETH)
+        <form action="#" class="calculator_sum">
+            <div>
+                <p class="calculator_p">Сума:</p>
+                <p><input type="number" name="num" min="0"></p>
+            </div>
+        </form>
+        <div class="calculator_info_wrapper">
+            <div class="calculator_search">
+                Bitcoin(BTC)
+            </div>
+            <div class="calculator_arrow">
+                <img src="/wordpress/wp-content/themes/exchangemonitoring/assets/images/calculator/right-arrow.png">
+            </div>
+            <div class="calculator_search">
+                Ethereum(ETH)
+            </div>
         </div>
     </div>
     <div class="tablewrapper">

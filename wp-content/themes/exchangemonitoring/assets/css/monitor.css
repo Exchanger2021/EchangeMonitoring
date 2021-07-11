@@ -14,6 +14,8 @@
 }
 .monitoring_table__wrapper{
     text-align: center;
+    max-width: 100%;
+    overflow-x: auto;
 }
 .monitoring_table__wrapper table{
     background: #fff;

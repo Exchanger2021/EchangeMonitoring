@@ -4,7 +4,7 @@
 	padding-top: 10px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px 5px gray;
-	max-width: 30%;
+	max-width: 50%;
 }
 .calculator_item_header{
 	text-align: center;
@@ -69,4 +69,15 @@
 .tablewrapper tr td{
 	display: flex;
 	align-items: center;
+}
+@media (max-width:720px) {
+	.calculator{
+		max-width: 100%;
+	}
+}
+@media (max-width:400px) {
+	.calculator{
+		font-size: 12px;
+		overflow-x: auto;
+	}
 }
