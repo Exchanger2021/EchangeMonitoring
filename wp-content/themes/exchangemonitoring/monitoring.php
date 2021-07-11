@@ -22,6 +22,6 @@
                     <td>5</td>
                 </tr>
             </table>
-        </div>
-    </div>
-</div>
+        </div><!-- /monitoring_table__wrapper -->
+    </div><!-- /monitoring_wrapper -->
+</div><!-- /monitoring -->

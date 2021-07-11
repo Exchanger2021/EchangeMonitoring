@@ -19,8 +19,8 @@
             <div class="calculator_search">
                 Ethereum(ETH)
             </div>
-        </div>
-    </div>
+        </div><!-- /calculator_info_wrapper -->
+    </div><!-- /monitoring_table__wrapper -->
     <div class="tablewrapper">
         <table border="0" max-width="100%" width='100%' cellpadding='0' cellspacing='0'
             style='border-collapse:collapse'>
@@ -123,5 +123,5 @@
                 </td>
             </tr>
         </table>
-    </div>
-</div>
+    </div><!-- /tablewrapper -->
+</div><!-- /calculator -->
